@@ -2,9 +2,23 @@
 
 这是一个关于 react、redux 小案例!
 
-使用 redux 管理的一个[气温查询应用](https://giihub.com/Yevvb/weather)
+#### 快速开始
 
-#### 使用 Redux 管理你的应用
+```
+> # 克隆项目到本地
+> git clone https://github.com/Yevvb/reduxTiny.git
+
+> # 进入到文件夹内，下载安装依赖
+> cd reduxTiny
+> npm install
+
+> # 执行开发环境 webpack 编译和打包、浏览器预览
+> npm start
+
+> # localhost:8080/
+```
+
+#### 应用基本原型
 
 ![一个简单的书架页面](http://7xt64j.com1.z0.glb.clouddn.com/simplebooklist.jpg)
 
@@ -60,6 +74,10 @@ react-redux 做的事情相当于是一个容器组件 container，它将 react 
  - mapDispatchToProps: 将事件变成 action 对象，从组件传出去（输出逻辑）
 
 #### redux-promise 中间件的工作流
+
+此例子中并未用到该中间件，后面的例子中有使用到：
+
+使用 redux 管理的一个[气温查询应用](https://giihub.com/Yevvb/weather)
 
 ![redux-promise](http://7xt64j.com1.z0.glb.clouddn.com/reduxpromisemiddleware.jpg)
 
