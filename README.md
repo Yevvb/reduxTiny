@@ -75,7 +75,7 @@ react-redux 做的事情相当于是一个容器组件 container，它将 react 
 
 #### redux-promise 中间件的工作流
 
-此例子中并未用到该中间件，后面的例子中有使用到：
+此例子中并未用到该中间件，下面的例子中有使用到：
 
 使用 redux 管理的一个[气温查询应用](https://giihub.com/Yevvb/weather)
 
